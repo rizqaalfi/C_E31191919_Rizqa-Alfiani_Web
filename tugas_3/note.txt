@@ -1,5 +1,5 @@
-Materi : Enkapsulasi
-sub : penerapan Enkapsulasi dan hak akses
+Materi : Enkapsulasi (mengatur struktur kelas dengan menyembunyikan hak akses)
+sub : penerapan Enkapsulasi dan hak akses ( private dan public)
 
 Tugas :
 1. Buatlah class kalkulator sederhana menggunakan ketentuan sebagai berikut:

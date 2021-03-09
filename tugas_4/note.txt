@@ -1,0 +1,20 @@
+Materi : konsep dasar Inheritance (pewarisan)
+submateri : hak akses ( private, protect, abstract), overriding dan abstract class + method untuk mencegah overriding
+
+Tugas :
+1. Buatlah sebuah kelas bernama ‘MobilBMW’, yang merupakan inherit dari class
+‘mobiLengkap’ kemudian deklarasikan beberapa methods dari ‘mobilLengkap’ tersebut,
+misalnya: ‘nontonTV’ yang isinya menampilkan Tv dihidupkan, Tv Mencari Chanel, Tv
+Menampilkan gambar. Kemudian buat class ‘MobilBMWberaksi’ yang didalamnya
+terdapat methods ‘nontonTv’, ‘HidupkanMobil’, ‘MatikanMobil’, ‘ubahGigi’
+2. Buatlah class Topi, class Celana, Class baju yang memiliki property dan methods
+berdasakan fakta misalkan topi dengan $model , celana $tipe $model dan baju $tipe
+kemudian tiga class tersebut extends class item produk yang memiliki methods Ukuran,
+Warna, Nama .
+3. Buatlah class Tablet dengan beberapa property dan sebuah method didalamnya. Property
+class tablet $merk, $camera, dan $memory Kemudian buat class handphone mewarisi class
+tablet. dalam class handphone bisa mengakses seluruh property dan method apapun dari
+class tablet misalkan ditambahkan $handphone_baru dari class handphone dan Method
+beli_handphone(). Buatlah tiga code program yang berbeda tetapi menjalakan enkapsulasi
+model pada objek : Public , Protect, Private yang mewariskan kelass induk (kemudian
+jelaskan Perbedaanya).

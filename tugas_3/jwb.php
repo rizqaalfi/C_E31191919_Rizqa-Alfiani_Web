@@ -30,6 +30,9 @@ class kalkulator
 //object
 $hitung1 = new kalkulator();
 
+//set
+//tidak bisa set diluar class, karena bersifat private
+
 //get
 echo "Hasil penjumlahan abc : " . $hitung1->tambah() . "<br>" .
   "Hasil pembagian abc : " . $hitung1->bagi() . "<br>" .
