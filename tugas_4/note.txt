@@ -1,5 +1,5 @@
 Materi : konsep dasar Inheritance (pewarisan)
-submateri : hak akses ( private, protect, abstract), overriding dan abstract class + method untuk mencegah overriding
+submateri : hak akses ( private, protect, abstract), overriding 
 
 Tugas :
 1. Buatlah sebuah kelas bernama ‘MobilBMW’, yang merupakan inherit dari class
