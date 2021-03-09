@@ -1,3 +1,5 @@
+Berisi konsep dasar PHP OOP
+Materi: variable $this sebagia penunjuk objek
 
 tugas/latihan :
 1. Buat sebuah class bernama class laptop.
