@@ -1,5 +1,5 @@
-Berisi konsep dasar PHP OOP
-Materi: pembuatan Class, Object, Method
+Materi : konsep dasar PHP OOP
+submateri : pembuatan Class, Object, Method
 
 tugas :
 1. Buatlah sebuah kelas bernama ‘buku’, kemudian deklarasikan beberapa properties dari
