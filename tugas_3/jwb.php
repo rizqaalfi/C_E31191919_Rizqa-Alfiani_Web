@@ -3,10 +3,19 @@
 class kalkulator
 {
 
-  private $a = 2;
-  private $b = 8;
-  private $c = 10;
+  private $a;
+  private $b;
+  private $c;
 
+  //setter
+  public function set($a, $b, $c)
+  {
+    $this->a = $a;
+    $this->b = $b;
+    $this->c = $c;
+  }
+
+  //hiitung
   public function tambah()
   {
     return $this->a + $this->b + $this->c;
@@ -29,6 +38,7 @@ class kalkulator
 }
 //object
 $hitung1 = new kalkulator();
+$hitung1->set(7, 5, 6);
 
 //set
 //tidak bisa set diluar class, karena bersifat private
