@@ -1,11 +1,7 @@
 Materi : konsep interface dan polimorfisme
 submateri : -
 
-
-tugas :
-1. Buatlah interface yang bernama hitungLuas dengan property bernama ‘sisi’ dan berisi 3
-methods yaitu fungsi hitungLuasPersegi(), hitungLuasSegitiga() dan
-hitungLuasLingkaran().
-2. Buatlah 3 class untuk menghitung luasbangun datar yang mengimplementasikan interface
-tersebut.
-3. Buatlah object dari masing-masing class, kemudian jalankan dan amati hasilnya.
+interface disebut dengan kontrak pernajian
+karena sebuah class yang mengimplementasikannya harus memiliki semua methods
+penggunaannya hampir sama dengan abstract, namun berbeda.
+jika abstract dianggap sebagai kerangka, maka interface bukan.

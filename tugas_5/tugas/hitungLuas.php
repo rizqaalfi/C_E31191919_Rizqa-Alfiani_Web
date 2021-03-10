@@ -1,5 +1,14 @@
 <?php
 
+/**
+1. Buatlah interface yang bernama hitungLuas dengan property bernama ‘sisi’ dan berisi 3
+methods yaitu fungsi hitungLuasPersegi(), hitungLuasSegitiga() dan
+hitungLuasLingkaran().
+2. Buatlah 3 class untuk menghitung luasbangun datar yang mengimplementasikan interface
+tersebut.
+3. Buatlah object dari masing-masing class, kemudian jalankan dan amati hasilnya.
+ */
+
 interface hitungLuas
 {
   public function hitungLuas();
