@@ -1,21 +1,3 @@
 Materi : konsep dasar PHP OOP
 submateri : pembuatan Class, Object, Method
 
-tugas :
-1. Buatlah sebuah kelas bernama ‘buku’, kemudian deklarasikan beberapa properties dari
-buku tersebut, misalnya: judul buku, pengarang, penerbit,tahun terbit, cetakan.
-2. Buatlah kelas kendaraan dengan properties: jenis kendaraan, jumlah roda, merk, bahan
-bakar, merk, harga, dan tahun pembuatan. Tambahkan fungsi untuk menentukan apakah
-suatu kendaraan mendapat subsidi BBM atau tidak. Kendaraan yang mendapat subsidi
-adalah yang berbahan bakar ‘Premium’ dan tahun pembuatannya sebelum tahun 2005.
-Function ini mereturn ‘Ya’ jika mendapat subsidi, dan ‘Tidak’ jika tidak mendapat subsidi.
-3. Buatlah function dalam kelas ‘kendaraan’ dengan nama ‘hargaSecond()’ untuk
-menentukan harga second dari kendaraan tersebut. Function ini mereturn harga second
-dari kendaraan dengan ketentuan:
-a. Jika tahun pembuatan di atas 2010, maka harga second nya turun 20% dari harga
-aslinya
-b. Jika tahun pembuatan 2005 s/d 2010, maka harga second nya turun 30% dari
-harga aslinya
-c. Jika tahun pembuatan di bawah 2005, maka harga second nya turun 40% dari
-harga aslinya.
-4. Buatlah kasus dimana terdapat class, property (minimal 5), dan function (minimal 3)

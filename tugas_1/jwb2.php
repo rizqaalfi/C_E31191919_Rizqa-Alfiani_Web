@@ -1,5 +1,12 @@
 <?php
 
+/**
+ 2. Buatlah kelas kendaraan dengan properties: jenis kendaraan, jumlah roda, merk, bahan
+ bakar, merk, harga, dan tahun pembuatan. Tambahkan fungsi untuk menentukan apakah
+ suatu kendaraan mendapat subsidi BBM atau tidak. Kendaraan yang mendapat subsidi
+ adalah yang berbahan bakar ‘Premium’ dan tahun pembuatannya sebelum tahun 2005.
+ Function ini mereturn ‘Ya’ jika mendapat subsidi, dan ‘Tidak’ jika tidak mendapat subsidi.
+ */
 
 class kendaraan
 {

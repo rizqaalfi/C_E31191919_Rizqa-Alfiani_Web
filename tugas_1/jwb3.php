@@ -1,4 +1,17 @@
 <?php
+
+/**
+3. Buatlah function dalam kelas ‘kendaraan’ dengan nama ‘hargaSecond()’ untuk
+menentukan harga second dari kendaraan tersebut. Function ini mereturn harga second
+dari kendaraan dengan ketentuan:
+a. Jika tahun pembuatan di atas 2010, maka harga second nya turun 20% dari harga
+aslinya
+b. Jika tahun pembuatan 2005 s/d 2010, maka harga second nya turun 30% dari
+harga aslinya
+c. Jika tahun pembuatan di bawah 2005, maka harga second nya turun 40% dari
+harga aslinya.
+4. Buatlah kasus dimana terdapat class, property (minimal 5), dan function (minimal 3)
+ */
 class mahasiswa
 {
   public $nama;
