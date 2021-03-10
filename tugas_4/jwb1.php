@@ -2,19 +2,19 @@
 
 abstract class mobilLengkap
 {
-  protected $TV;
+  protected $TV = "Toshiba";
 
 
   public function nontonTV()
   {
-    return $this->TV;
+    echo $this->TV;
   }
 }
 class MobilBMW extends mobilLengkap
 {
   public function nontonTV()
   {
-    return "Tv dihidupkan, Tv Mencari Chanel, Tv
+    echo $this->TV . " Tv dihidupkan, Tv Mencari Chanel, Tv
     Menampilkan gambar";
   }
 }
