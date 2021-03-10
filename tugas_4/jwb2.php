@@ -1,57 +1,57 @@
 <?php
 
+/** 
+2. Buatlah class Topi, class Celana, Class baju yang memiliki property dan methods
+berdasakan fakta misalkan topi dengan $model , celana $tipe $model dan baju $tipe
+kemudian tiga class tersebut extends class item produk yang memiliki methods Ukuran,
+Warna, Nama .
+ */
+
 abstract class item
 {
   protected $ukuran;
   protected $warna;
   protected $nama;
+
+  //setter
+  public function setUkuran($ukuran)
+  {
+    return $this->ukuran = $ukuran;
+  }
+  public function setWarna($warna)
+  {
+    return $this->warna = $warna;
+  }
+  public function setNama($nama)
+  {
+    return $this->nama = $nama;
+  }
 }
+
 class topi extends item
 {
 
   public $model;
   public $tahun_tren;
   public $toko;
-
-  function umum()
-  {
-    echo $this->ukuran = "L" . "<br>";
-    echo $this->warna = "putih" . "<br>";
-    echo $this->nama = "topi pantai" . "<br>";
-  }
 }
 class celana extends item
 {
   public $jenis;
   public $merk;
   public $kain;
-
-  function umum()
-  {
-    echo $this->ukuran = "XL" . "<br>";
-    echo $this->warna = "Hijau" . "<br>";
-    echo $this->nama = "Jeans" . "<br>";
-  }
 }
 class baju extends item
 {
   public $bahan;
   public $butik;
   public $perancang;
-
-  function umum()
-  {
-    echo $this->ukuran = "M" . "<br>";
-    echo $this->warna = "Hitam" . "<br>";
-    echo $this->nama = "koko" . "<br>";
-  }
 }
 
 //test
 $obj1 = new baju();
 
-//set
-$obj1->bahan = "katun";
-
-echo $obj1->umum();
-echo $obj1->bahan;
+echo "Ukuran baju = " . $obj1->setUkuran("XL") . "<br>";
+echo "Ukuran baju = " . $obj1->setWarna("putih") . "<br>";
+echo "Ukuran baju = " . $obj1->setNama("Rabbani") . "<br>";
+echo "Ukuran baju = " . $obj1->bahan = "katun" . "<br>";

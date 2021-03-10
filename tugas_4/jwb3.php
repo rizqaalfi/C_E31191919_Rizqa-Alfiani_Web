@@ -1,5 +1,15 @@
 <?php
 
+/**
+3. Buatlah class Tablet dengan beberapa property dan sebuah method didalamnya. Property
+class tablet $merk, $camera, dan $memory Kemudian buat class handphone mewarisi class
+tablet. dalam class handphone bisa mengakses seluruh property dan method apapun dari
+class tablet misalkan ditambahkan $handphone_baru dari class handphone dan Method
+beli_handphone(). Buatlah tiga code program yang berbeda tetapi menjalakan enkapsulasi
+model pada objek : Public , Protect, Private yang mewariskan kelass induk (kemudian
+jelaskan Perbedaanya).
+ */
+
 abstract class tablet
 {
   public $merk = "nokia";
