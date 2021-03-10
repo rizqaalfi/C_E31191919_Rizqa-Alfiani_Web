@@ -1,17 +1,24 @@
 <?php
 
+/**
+ * pembuatan class, properties dan object
+ */
 class car
 {
+
+  //properties
   public $comp;
   public $color = 'beige';
   public $hasSunRoof = true;
 
+  //method
   public function hello()
   {
     return "beep";
   }
 }
 
+//object
 $bmw = new car();
 $mercedes = new car();
 

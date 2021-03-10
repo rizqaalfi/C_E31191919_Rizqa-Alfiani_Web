@@ -1,9 +1,9 @@
 Materi : Enkapsulasi (mengatur struktur kelas dengan menyembunyikan hak akses)
 sub : penerapan Enkapsulasi dan hak akses ( private dan public)
 
-Tugas :
-1. Buatlah class kalkulator sederhana menggunakan ketentuan sebagai berikut:
-2. Memiliki 3 properti yang digunakan untuk menampung angka yang akan dioperasikan, ketiga
-property ini memiliki hak akses private.
-3. Memiliki 4 methods, yaitu tambah(), kurang(), bagi() dan kali().
-4. Buatkan objek yang menggunakan masing-masing methods yang ada dalam class kalkulator.
+Enkapsulasi -> sebuah metoda untuk mengatur struktur class
+dengan cara menyembunyikan alur kerja dari class tersebut. Struktur class yang dimaksud
+adalah property dan method.
+
+private -> satu-satunya yang bisa mengakses adalah  kelas itu sendiri
+public -> semua bisa mengakses

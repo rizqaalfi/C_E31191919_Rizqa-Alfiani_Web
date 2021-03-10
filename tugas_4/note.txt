@@ -1,3 +1,10 @@
 Materi : konsep dasar Inheritance (pewarisan)
 submateri : hak akses ( private, protect, abstract), overriding 
 
+protected-> hanya bisa diakses oleh kelas itu atau turunannya
+abstract-> berperan sebagai kerangka dasar turunannya, tidak bisa dibuat sebagai objek
+overriding ->kelas anak memodifikasi dan memperluas data dari dan method pada kelas induk
+          untuk mencegah terjadinya overriding, gunakan visibility final.
+          ex. final public function hello(){
+            ...
+          }

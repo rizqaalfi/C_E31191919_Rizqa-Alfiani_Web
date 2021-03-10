@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * 
+1. Buatlah class kalkulator sederhana menggunakan ketentuan sebagai berikut:
+2. Memiliki 3 properti yang digunakan untuk menampung angka yang akan dioperasikan, ketiga
+property ini memiliki hak akses private.
+3. Memiliki 4 methods, yaitu tambah(), kurang(), bagi() dan kali().
+4. Buatkan objek yang menggunakan masing-masing methods yang ada dalam class kalkulator.
+ */
+
 class kalkulator
 {
 
