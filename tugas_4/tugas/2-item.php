@@ -52,6 +52,6 @@ class baju extends item
 $obj1 = new baju();
 
 echo "Ukuran baju = " . $obj1->setUkuran("XL") . "<br>";
-echo "Ukuran baju = " . $obj1->setWarna("putih") . "<br>";
-echo "Ukuran baju = " . $obj1->setNama("Rabbani") . "<br>";
-echo "Ukuran baju = " . $obj1->bahan = "katun" . "<br>";
+echo "Warna baju = " . $obj1->setWarna("putih") . "<br>";
+echo "Nama baju = " . $obj1->setNama("Rabbani") . "<br>";
+echo "Bahan baju = " . $obj1->bahan = "katun" . "<br>";

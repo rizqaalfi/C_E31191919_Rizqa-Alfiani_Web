@@ -1,5 +1,5 @@
 <?php
-class Hello extends CI_Controller
+class Hello_kode1 extends CI_Controller
 {
   public function index()
   {

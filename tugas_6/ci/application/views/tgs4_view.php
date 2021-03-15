@@ -7,9 +7,9 @@
 <body>
   <h2>mengirim data dari Controller ke view</h2>
   <!--memanggil variable-->
-  variabel1: <?php echo $variabel1; ?><br>
-  variabel2: <?php echo $variabel2;
-              ?>
+  variabel1: <?php echo $list1; ?><br>
+  variabel2: <?php echo $list2; ?><br>
+
 </body>
 
 </html>
