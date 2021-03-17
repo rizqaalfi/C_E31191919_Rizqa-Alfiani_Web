@@ -1,6 +1,0 @@
-Untuk praktikum 6
-1. dalam CI index defalutnya adalah tugas terakhir ( tugas 4 )
-2. dalam CI terdapat 2 controller yang dapat diakses yaitu tgs4_control(default) dan welcome
-3. untuk praktikum saya meletakkannya di file diluar CI, mengingat banyak file yang penamaannya sama.
-    Namun sudah melewatati tahap uji coba.
-4. Keseluruhan Laporan untuk praktikum 6 ada di file PDF

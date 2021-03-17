@@ -1,0 +1,20 @@
+folder kode ke 3 :
+
+Untuk menambah css dengan file yang terpisah :
+
+  -> buat folder assets di folder ci
+  -> buat folder css di folder assets
+  -> ganti $autoload['helper'] = array(); menjadi $autoload['helper'] = array('url'); di file autoload.php dalam folder config
+  -> link ke file yang akan di beri css Ex. <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>">
+
+
+folder kode ke 4 :
+
+kode :
+  cara memanggil 
+  http://localhost/Web_Framework/C_E31191919_Rizqa-Alfiani_Web/tugas_6/ci/kode/hello/php (class/method/parameter)
+
+kode 1 :
+  cara memanggil
+  http://localhost/Web_Framework/C_E31191919_Rizqa-Alfiani_Web/tugas_6/ci/kode1 ( menuju ke index )
+  http://localhost/Web_Framework/C_E31191919_Rizqa-Alfiani_Web/tugas_6/ci/kode1/hello_phyton ( memanggil methode )

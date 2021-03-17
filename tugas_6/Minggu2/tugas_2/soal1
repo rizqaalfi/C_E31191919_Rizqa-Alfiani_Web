@@ -1,0 +1,9 @@
+Menghilangkan index.php 
+
+1. buat file .htaccess
+2. buka documentation codeigniter 3 - cari htaccess - pilih codeigniter URLs atau copykan code di bawah ini
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+
