@@ -53,5 +53,14 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+/*
+//route ini untuk mengganti nama saat pengaksesan di URL, tujuannya untuk menyembunyikan directori
+
 $route['profile'] = 'welcome/profile';
 $route['contact'] = 'welcome/contact';
+
+
+$route['kode/(:any)'] = 'kode/hello/$1'; 
+
+
+*/
