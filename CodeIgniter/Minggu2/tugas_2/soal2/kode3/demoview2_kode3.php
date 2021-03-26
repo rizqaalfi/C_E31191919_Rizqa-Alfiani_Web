@@ -9,6 +9,6 @@ class demoview2_kode3 extends CI_Controller
 
   public function index()
   {
-    $this->load->view('demoview');
+    $this->load->view('demoview_kode3');
   }
 }

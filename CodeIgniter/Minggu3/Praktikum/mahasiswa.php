@@ -11,7 +11,7 @@ class Mahasiswa extends CI_Controller
 
   public function profile()
   {
-    echo "ini adalah medthod profil pada controller";
+    echo "ini adalah method profil pada controller";
   }
   //percobaan 1 (berhasil)
 
@@ -34,7 +34,7 @@ class Mahasiswa extends CI_Controller
     $this->load->view("mahasiswa_view", $data);
   }*/
 
-  //percobaan 3 (berhasil), mengambil datanya di model kemudian ditampilkan di view
+  //percobaan 3 (berhasil), mengambil datanya di model kemudian itampilkan di view
 
   public function index()
   {

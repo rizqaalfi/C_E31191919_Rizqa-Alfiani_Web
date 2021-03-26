@@ -19,8 +19,8 @@ class Tugas_model extends CI_Model
   {
     $data_angkatan = [
       ['no' => '1', 'tahun' => '2016'],
-      ['no' => '1', 'tahun' => '2017'],
-      ['no' => '1', 'tahun' => '2018']
+      ['no' => '2', 'tahun' => '2017'],
+      ['no' => '3', 'tahun' => '2018']
     ];
 
     return $data_angkatan;

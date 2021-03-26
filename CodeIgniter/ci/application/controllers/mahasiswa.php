@@ -11,7 +11,7 @@ class Mahasiswa extends CI_Controller
 
   public function profile()
   {
-    echo "ini adalah medthod profil pada controller";
+    echo "ini adalah method profil pada controller";
   }
   //percobaan 1 (berhasil)
 
@@ -24,7 +24,7 @@ class Mahasiswa extends CI_Controller
 
   //percobaan 2 (berhasil), data sudah disediakan dalam bentuk array dan ditampilkan diview
 
-  /* public function index()
+  public function index()
   {
     $data['mahasiswa'] = [
       ['nama' => "Kim Jefry", 'prodi' => 'MIF'],
@@ -32,13 +32,13 @@ class Mahasiswa extends CI_Controller
       ['nama' => 'Budi Sudarsono', 'prodi' => 'TIF']
     ];
     $this->load->view("mahasiswa_view", $data);
-  }*/
+  }
 
   //percobaan 3 (berhasil), mengambil datanya di model kemudian itampilkan di view
 
-  public function index()
+  /*public function index()
   {
     $data['mahasiswa'] = $this->Mahasiswa_model->get_data();
     $this->load->view('mahasiswa_view', $data);
-  }
+  }*/
 }

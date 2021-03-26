@@ -4,9 +4,11 @@ defined('BASEPATH') or exit('NO direct is allowed');
 class Tugas_control extends CI_Controller
 {
 
-  function __construct()
+
+  public function __construct()
   {
     parent::__construct();
+    $this->load->helper('url');
     $this->load->model('Tugas_model');
   }
 
@@ -20,7 +22,6 @@ class Tugas_control extends CI_Controller
 
   public function angkatan()
   {
-
     $data['angkatan'] = $this->Tugas_model->angkatan();
     $this->load->view('angkatan_view', $data);
   }
