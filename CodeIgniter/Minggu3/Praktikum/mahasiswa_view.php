@@ -1,5 +1,5 @@
 <?php
-foreach ($siswa as $row) {
+foreach ($mahasiswa as $row) {
   echo "Nama : " . $row['nama'];
   echo "<br/>";
   echo "Prodi : " . $row['prodi'];

@@ -15,12 +15,12 @@ class Mahasiswa extends CI_Controller
   }
   //percobaan 1 (berhasil)
 
-  public function index()
+  /* public function index()
   {
     $data['nama'] = "Kim Jefry";
     $data['prodi'] = "MIF";
     $this->load->view('mahasiswa_view2', $data);
-  }
+  }*/
 
   //percobaan 2 (berhasil), data sudah disediakan dalam bentuk array dan ditampilkan diview
 
@@ -36,9 +36,9 @@ class Mahasiswa extends CI_Controller
 
   //percobaan 3 (berhasil), mengambil datanya di model kemudian itampilkan di view
 
-  /*public function index()
+  public function index()
   {
     $data['mahasiswa'] = $this->Mahasiswa_model->get_data();
     $this->load->view('mahasiswa_view', $data);
-  }*/
+  }
 }
