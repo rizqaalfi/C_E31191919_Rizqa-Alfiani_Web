@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -52,17 +52,3 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-/*
-//route ini untuk mengganti nama saat pengaksesan di URL, tujuannya untuk menyembunyikan directori
-//praktikum_minggu2
-$route['profile'] = 'welcome/profile';
-$route['contact'] = 'welcome/contact';
-
-//kode4_soal2_minggu2
-$route['kode/(:any)'] = 'kode/hello/$1'; 
-
-*/
-//tugas_minggu3
-$route['angkatan'] = 'tugas_control/angkatan';
-$route['prodi'] = 'tugas_control';
