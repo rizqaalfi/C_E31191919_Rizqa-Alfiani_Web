@@ -7,8 +7,8 @@ Perkembangan Tugas web Framework
 4. Minggu 4 -- 
     1. Helper ( fix )
     2. library ( fix )
-    3. template ( fix )
-5. Minggu 5 -- Create and Read (on going)
+5. Minggu 5 -- template ( fix )
+6. Minggu 6 -- Create and Read (on going)
 
 
 
