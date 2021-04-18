@@ -19,10 +19,14 @@ class Template
       // ['sidebae'] data yang kita panggil dari file template.php dari folder Admin/_Template/
       $data['sidebar'] = $this->_ci->load->view('Admin/_Template/sidebar', $data, TRUE);
       // ['isi'] data yang kita panggil dari file content.php dari folder Admin/_Template/
+      // tujuan dari isi ini untuk membungkus isi dari template. (ex. content)
       $data['isi'] = $this->_ci->load->view($template, $data, TRUE);
+
+
       // Bagian $data['content'] untuk memanggil file content.php dari folder Admin/_Template/
       // ['content'] data yang kita panggil dari file template.php dari folder Admin/_Template/
-      $data['content'] = $this->_ci->load->view('Admin/_Template/content', $data, TRUE);
+      //$data['content'] = $this->_ci->load->view('Admin/_Template/content', $data, TRUE);
+
       // Bagian $data['footer'] untuk memanggil file footer.php dari folder Admin/_Template/
       // ['footer'] data yang kita panggil dari file template.php dari folder Admin/_Template/
       $data['footer'] = $this->_ci->load->view('Admin/_Template/footer', $data, TRUE);

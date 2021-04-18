@@ -23,8 +23,9 @@
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
-        <?php echo @$content; ?>
+        <?php echo @$isi; ?>
         <!-- /.container-fluid -->
+
 
       </div>
       <!-- End of Main Content -->
